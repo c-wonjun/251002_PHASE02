@@ -1,0 +1,32 @@
+{
+  "name": "251001_phase01",
+  "version": "1.0.0",
+  "description": "1. Live Server (5500) / Express (3000) 연동 - 1시간 30분. 2. Supabase 세팅 + DOM/Fetch - 1시간 30분 ~ 2시간 3. Gemini, Groq -> Chaining, Ensemble - 1시간 30분 ~ 2시간 4. 배포 (GitHub Pages, Render) - 30분 ~ 1시간",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimjava911/251001_phase01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimjava911/251001_phase01/issues"
+  },
+  "homepage": "https://github.com/kimjava911/251001_phase01#readme",
+  "dependencies": {
+    "@google/genai": "^1.21.0",
+    "@supabase/supabase-js": "^2.58.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.33.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
