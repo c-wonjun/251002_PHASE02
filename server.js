@@ -6,7 +6,7 @@ const { GoogleGenAI } = require("@google/genai");
 const { Groq } = require("groq-sdk");
 // npm install multer
 const multer = require("multer"); // 미들웨어 -> 변환, 체크.
-
+//연결 확인용 테스트 주석 <- 신경 안써도 됨
 dotenv.config();
 const { SUPABASE_KEY: supabaseKey, SUPABASE_URL: supabaseUrl } = process.env;
 console.log("supabaseKey", supabaseKey);
